@@ -1,0 +1,4 @@
+el dni de pedro es 45.333.555 , su calificación mas alta es un 9 y su codigo postal es C-318
+el dni de juan es 47.443.215 , su calificación mas alta es un 7 y su codigo postal es B-114
+el dni de lautaro es 42.377.892 , su calificación mas alta es un 8 y su codigo postal es D-222
+el dni de manuel es 45.256.602 , su calificación mas alta es un 10 y su codigo postal es H-999
