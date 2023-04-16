@@ -10,17 +10,18 @@ public class EJ2 {
         String expresionRegular = args[1];
         final Pattern patron = Pattern.compile(expresionRegular);
 
-        coincidencia(archivo,patron);
+        coincidencia(archivo, patron);
 
     }
+
     public static void coincidencia(String archivo, Pattern patron) throws IOException {
-        for (String linea : Files.readAllLines(Paths.get(archivo))){
+        for (String linea : Files.readAllLines(Paths.get(archivo))) {
             final Matcher matcher = patron.matcher(linea);
 
-            while (matcher.find()){
+            while (matcher.find()) {
                 System.out.println("Grupo entero: " + matcher.group(0));
 
-                for (int i = 1; i<=matcher.groupCount();i++){
+                for (int i = 1; i <= matcher.groupCount(); i++) {
                     System.out.println("Grupo " + i + ": " + matcher.group(i));
                 }
             }
